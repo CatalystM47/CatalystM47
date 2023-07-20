@@ -1,0 +1,15 @@
+사용할 라이브러리: https://imgaug.readthedocs.io/en/latest/source/api_augmenters_blur.html
+-> 여기서 각 Aug 종류별 메서드 인자들 확인가능
+
+해당 라이브러 깃헙: https://github.com/aleju/imgaug#example_images
+-> 여기서 코드 뜯어볼거면 봐도 되고, Aug 종류별로 샘플이미지 해둔거 있어서 그거 보면서 감 익히면 됨
+
+관련 블로그1: http://solarisailab.com/archives/2660
+관련 블로그2: https://ballentain.tistory.com/58
+
+내가 옛날에 했던 코드: https://github.com/Ikgyu-Lee/2022-ai-online-competition/blob/main/yolov5/augmentation.py
+-> 옛날에 짰던 코든데 참고하면 될듯(메서드들이 Aug용만 있는게 아니라 전처리관련이 섞여있어서 메서드 이름보고 구분해서 쓰면 됨)
+
+데이터셋 링크: https://drive.google.com/drive/folders/1iZfq42hsedjYUqboUOS22N1vZbE3tUhM?usp=sharing
+-> 데이터셋 링큰데, 여기가 train_valid 이미지랑 txt가 나눠져있어서 예전에 내가 짜준 디렉토리 구조로 새로 편성해서 코드 짜야함
+
